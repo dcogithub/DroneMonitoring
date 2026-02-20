@@ -143,7 +143,7 @@ The results are stored in the folder "Results".
 
 Inside the folder there are two sub-folders concerning the results of the base experiment and the results of the sensitivity analysis experiments.
 
-The folder "Sensitivity Analysis" contains 3 subfolders corresponding to 3 different daily workin shift duration **$\mathcal{D}={10,9,8}$** hours. Every subfolder is divided in 4 new folders, depending on the drone endurance **$\mathcal{E}=\{12000, 10000, 8000, 6000\}$** meters. Inside each folder there are 3 new subfolders corresponding to the three values of the charge rate, **$RC=\{1.8, 1.9, 2.0\}$** time to charge/ time employed for trips.
+The folder "Sensitivity Analysis" contains 3 subfolders corresponding to 3 different daily workin shift duration **$\mathcal{D}=\lbrace 10,9,8 \rbrace$** hours. Every subfolder is divided in 4 new folders, depending on the drone endurance **$\mathcal{E}=\lbrace 12000, 10000, 8000, 6000 \rbrace$** meters. Inside each folder there are 3 new subfolders corresponding to the three values of the charge rate, **$RC=\lbrace 1.8, 1.9, 2.0 \rbrace** time to charge/ time employed for trips.
 
 Inside each of these last forlders there are six graphs numbered form 00 to 05:
 
