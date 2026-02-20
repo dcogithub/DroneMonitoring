@@ -1,6 +1,6 @@
 # Drone Monitoring
 Data for "Monitoring network infrastructures with drones: 
-Application to the railway commuter network of Madrid"
+Application to the railway commuter network of Madrid" submitted to *Applied Mathematical Modelling*
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 This repository contains the data used for the article "**Monitoring network infrastructures with drones: Application to the railway commuter network of Madrid**". 
 by David Canca, José Miguel León Blanco, José Luis Andrade Pineda, Pedro Luis González-R and Marcos Calle
@@ -142,4 +142,22 @@ A second little network used to develop the code is included in the file "**"Red
 The results are stored in the folder "Results".
 
 Inside the folder there are two sub-folders concerning the results of the base experiment and the results of the sensitivity analysis experiments.
+
+The folder "Sensitivity Analysis" contains 3 subfolders corresponding to 3 different daily workin shift duration **$\mathcal{D}=\{10,9,8\}$** hours. Every subfolder is divided in 4 new folders, depending on the drone endurance **$\mathcal{E}=\{12000, 10000, 8000, 6000\}$** meters. Inside each folder there are 3 new subfolders corresponding to the three values of the charge rate, **$RC=\{1.8, 1.9, 2.0\}$** time to charge/ time employed for trips.
+
+Inside each of these last forlders there are six graphs numbered form 00 to 05:
+
+*00 -> Base network of the Madrid Commuter railway Network*
+
+*01 -> Network coverage with paths*
+
+*02 -> Network Coverage with Segments*
+
+*03 -> Circular graph of Segments to solve the double direction VRP model*
+
+*04 -> Solution of the VRP double direction model over the circular graph of Segments*
+
+*05 -> Final assignment of drones to segments*
+
+
 
